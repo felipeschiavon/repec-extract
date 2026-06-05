@@ -18,7 +18,7 @@ jobs:
       - name: Instalar bibliotecas
         run: pip install requests beautifulsoup4 pandas openpyxl
       - name: Executar Script
-        run: python Script_Extracao_RePEc.py
+        run: python script_extract.py
       - name: Salvar resultados
         run: |
           git config --local user.email "action@github.com"
